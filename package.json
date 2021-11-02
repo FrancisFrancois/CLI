@@ -1,5 +1,5 @@
 {
-  "name": "cli",
+  "name": "@francisfrancois/holidays",
   "version": "1.0.0",
   "description": "Exercice NPM",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/FrancisFrancois/CLI.git"
   },
   "type": "module" ,
-  "author": "Francis",
+  "author": "francisfrancois",
   "license": "ISC",
   "bin": {
     "holidates": "./index.js"

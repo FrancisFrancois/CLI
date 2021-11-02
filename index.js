@@ -30,7 +30,7 @@ const api = async (year, countryCode) => {
 
 const showItem = async () => {
     const allHolidays = await api(currentYear, countryCode)
-    console.log("Holiday for " + countryName+'\n')
+    console.log('\x1b[33m%s\x1b[0m',"Holiday for " + countryName+'\n')
     allHolidays.forEach(holiday => {
 
         if (holidayFix(holiday)) {
@@ -42,8 +42,8 @@ const showItem = async () => {
 
         
     });
-    console.log('\nColor purple is the unfixed holiday')
-    console.log('Color green is the fixed holiday')
+    console.log('\x1b[35m%s\x1b[0m','\nColor purple is the unfixed holiday')
+    console.log('\x1b[32m%s\x1b[0m','Color green is the fixed holiday')
 
 }
 
@@ -57,7 +57,5 @@ const holidayFix = (holiday) => {
 
 console.clear()
 showItem()
-
-
 
 
