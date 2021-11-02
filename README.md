@@ -9,7 +9,7 @@ npm install -g @francisfrancois/holidates
 
 How to use
 Run the following command in your terminal :
-node .
+holidates
 
 Uninstall
 Run the following command in your terminal :
